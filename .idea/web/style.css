@@ -1,0 +1,24 @@
+body{
+    background: lightblue;
+}
+
+header{
+    text-align:center;
+}
+
+.planner{
+    width: max-content;
+    margin: auto;
+}
+
+.semana{
+    display:flex;
+}
+
+.dia{
+    border:1px solid black;
+    width:100px;
+    height:80px;
+    margin:3px;
+    background-color: lightcyan;
+}
