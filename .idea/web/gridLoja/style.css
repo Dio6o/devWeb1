@@ -1,0 +1,43 @@
+body {
+    font-family: Arial;
+}
+
+.loja {
+    display: grid;
+    grid-template-areas:
+    "vitrine vitrine vitrine"
+    "entrada entrada entrada"
+    "eletronicos corredor acessorios"
+    "decoracao corredor corredor"
+    "utilidades brinquedos papelaria"
+    "caixa caixa caixa";
+
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 8px;
+    width: 500px;
+    margin: auto;
+}
+
+.loja div {
+    border: 2px solid black;
+    padding: 20px;
+    text-align: center;
+}
+
+.vitrine { grid-area: vitrine; background: #ddd; }
+.entrada { grid-area: entrada; background: #eee; }
+
+.eletronicos { grid-area: eletronicos; }
+.acessorios { grid-area: acessorios; }
+.decoracao { grid-area: decoracao; }
+
+.utilidades { grid-area: utilidades; }
+.brinquedos { grid-area: brinquedos; }
+.papelaria { grid-area: papelaria; }
+
+.caixa { grid-area: caixa; background: lightgray; font-weight: bold; }
+
+.corredor {
+    background: white;
+    border: 2px dashed #aaa;
+}
