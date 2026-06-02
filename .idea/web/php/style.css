@@ -1,0 +1,44 @@
+body {
+    font-family: sans-serif;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 16px;
+}
+
+header, footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 0;
+    border-bottom: 1px solid #ccc;
+}
+
+footer {
+    border-top: 1px solid #ccc;
+    border-bottom: none;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 16px;
+    padding: 0;
+}
+
+#banner img {
+    width: 100%;
+    height: 120px;
+    object-fit: cover;
+}
+
+#destaques, #noticias {
+    display: flex;
+    gap: 16px;
+    margin: 16px 0;
+}
+
+.destaque_item, .noticia_item {
+    flex: 1;
+    border: 1px solid #ccc;
+    padding: 12px;
+}
