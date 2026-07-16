@@ -1,0 +1,12 @@
+<footer>
+    <div class="copyright">
+        &copy; <?= date("Y") ?> Livraria Online - Todos os direitos reservados
+    </div>
+    <div class="newsletter">
+        <form action="" method="get">
+            <input type="text" name="nome" placeholder="Seu nome">
+            <input type="email" name="email" placeholder="Seu e-mail">
+            <input type="submit" value="ok">
+        </form>
+    </div>
+</footer>
