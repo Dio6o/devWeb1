@@ -1,0 +1,10 @@
+<nav>
+    <span><c:out value="${sessionScope.login}"/> @ <c:out value="${sessionScope.empresaNome}"/></span>
+    <a href="${pageContext.request.contextPath}/app/noticias">Notícias</a>
+    <a href="${pageContext.request.contextPath}/app/contas">Contas</a>
+    <c:if test="${sessionScope.admin}">
+        <a href="${pageContext.request.contextPath}/app/usuarios">Usuários</a>
+    </c:if>
+    <a href="${pageContext.request.contextPath}/noticias">Página pública</a>
+    <a href="${pageContext.request.contextPath}/logout">Sair</a>
+</nav>

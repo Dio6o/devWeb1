@@ -1,0 +1,11 @@
+body { font-family: sans-serif; max-width: 800px; margin: 2rem auto; padding: 0 1rem; }
+nav { display: flex; gap: 1rem; padding-bottom: .75rem; border-bottom: 1px solid #ccc; margin-bottom: 1rem; }
+nav span { margin-right: auto; font-weight: bold; }
+form { display: grid; gap: .5rem; margin-bottom: 1.5rem; }
+input, textarea, select, button { padding: .4rem; font: inherit; }
+article { border: 1px solid #ddd; padding: .75rem; margin-bottom: .75rem; }
+small { color: #666; }
+.erro { color: #b00020; }
+.ok { color: #1b7f3b; }
+table { width: 100%; border-collapse: collapse; }
+td, th { border-bottom: 1px solid #ddd; padding: .4rem; text-align: left; }
